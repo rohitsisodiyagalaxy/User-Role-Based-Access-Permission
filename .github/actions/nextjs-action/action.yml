@@ -1,0 +1,13 @@
+name: "Next.js Build Action"
+description: "Builds the Next.js project"
+inputs:
+  node-version:
+    description: "Node.js version to use"
+    required: true
+    default: "16"
+outputs:
+  message:
+    description: "Build status message"
+runs:
+  using: "node16"
+  main: "index.js"

@@ -9,5 +9,5 @@ outputs:
   message:
     description: "Build status message"
 runs:
-  using: "node22"
+  using: "node16"
   main: "dist/index.js" # Change this to point to the bundled file

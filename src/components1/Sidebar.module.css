@@ -1,0 +1,32 @@
+.sidebar {
+    background-color: #1e293b; /* Dark blue-gray */
+    color: #ffffff;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .navItem {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navItem:hover {
+    background-color: #3b82f6; /* Light blue */
+  }

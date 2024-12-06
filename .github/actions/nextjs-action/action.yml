@@ -4,10 +4,10 @@ inputs:
   node-version:
     description: "Node.js version to use"
     required: true
-    default: "16"
+    default: "22"
 outputs:
   message:
     description: "Build status message"
 runs:
-  using: "node16"
+  using: "node22"
   main: "dist/index.js" # Change this to point to the bundled file

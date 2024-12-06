@@ -13,9 +13,9 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 22.6.0
 
       - name: Run Next.js Build Action
         uses: ./.github/actions/nextjs-action
         with:
-          node-version: 16
+          node-version: 22.6.0

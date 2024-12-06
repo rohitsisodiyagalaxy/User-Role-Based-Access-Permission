@@ -13,7 +13,7 @@ node_modules/
 out/
 
 # Build output from npm
-dist/
+#dist/
 
 # Environment variables
 .env

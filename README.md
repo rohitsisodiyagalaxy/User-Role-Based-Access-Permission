@@ -39,7 +39,7 @@ npm install
 Start the development server with:
 npm run dev
 
-The application should now be running at http://localhost:3000.
+ The application should now be running at http://localhost:3000.
 
 ##Features
 Role management for various user types.

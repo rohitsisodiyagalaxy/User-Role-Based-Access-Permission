@@ -1,0 +1,23 @@
+name: 'Deploy Next.js Project'
+description: 'A GitHub Action to deploy a Next.js project.'
+author: 'Your Name or Organization'
+
+inputs:
+  token:
+    description: 'GitHub Personal Access Token'
+    required: true
+  environment:
+    description: 'Deployment environment (e.g., production or staging)'
+    required: true
+
+outputs:
+  deployment_url:
+    description: 'The URL of the deployed Next.js app'
+
+runs:
+  using: 'node16'
+  main: 'index.js'
+
+branding:
+  icon: 'rocket'
+  color: 'blue'
